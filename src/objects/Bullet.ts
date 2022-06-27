@@ -57,7 +57,7 @@ class Bullets extends Phaser.Physics.Arcade.Group
         super(scene.physics.world, scene);
         this.scene = scene;
         this.createMultiple({
-            frameQuantity: 1,
+            frameQuantity: 5,
             key: 'bullet',
             active: false,
             visible: false,
